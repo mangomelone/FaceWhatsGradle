@@ -27,7 +27,7 @@ public class MainActivity extends Activity
         setContentView(R.layout.main);
 	}
 
-	public void onClick(View view)
+	public void takePicture(View view)
 	{
 		surfaceView = (SurfaceView) this.findViewById(R.id.surfaceView);
 		cameraPreview = new CameraPreview(this);
